@@ -15,7 +15,7 @@ var app = new Vue({
 })
 ````
 #### computed
-计算属性 优雅的计算 不需要在html 里面计算
+计算属性 优雅的计算 不需要在html 里面计算、自动计算（原始值变动也跟着变动）
 ````html
 <div id="app">
     {{ Numsum }} = 3
